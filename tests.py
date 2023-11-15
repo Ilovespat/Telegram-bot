@@ -8,7 +8,7 @@ REPLACE_VALUES = OrderedDict(
      ("сентября", "09"), ("октября", "10"), ("ноября", "11"), ("декабря", "12"), ])
 
 
-# Замена введенных символов даты рождения на дату в формате ДД.ММ.ГГ
+# Замена введенных символов даты рождения на формат ДД.ММ.ГГ
 def multiple_replace(source_str):
     for i, j in REPLACE_VALUES.items():
         source_str = source_str.replace(i, j)
