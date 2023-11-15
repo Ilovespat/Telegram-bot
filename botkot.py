@@ -8,9 +8,8 @@ from bs4 import BeautifulSoup
 from collections import OrderedDict
 from telebot import types
 
-# Данные заменены на "*"
-API_TOKEN = '*'
-DB_CONFIG = {'dbname': '*', 'user': '*', 'password': '*', 'host': '*'}
+API_TOKEN = ''
+DB_CONFIG = {'dbname': '', 'user': '', 'password': '', 'host': ''}
 REPLACE_VALUES = OrderedDict(
     [(".", ""), (",", ""), ("/", ""), ("-", ""), (" ", ""), ("января", "01"), ("февраля", "02"),
      ("марта", "03"), ("апреля", "04"), ("мая", "05"), ("июня", "06"), ("июля", "07"), ("августа", "08"),
